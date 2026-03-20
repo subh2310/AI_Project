@@ -28,11 +28,13 @@ Pull Semantic Engine:
 
 Bash
 ollama pull nomic-embed-text
-
-Pull Reasoning Engine:
-
-Bash
 ollama pull llama3
+ollama pull llama3.2
+ollama serve
+
+ollama run mistral
+ollama pull llama3.2:1b or ollama pull llama3.2:3b.
+
 🚀 Getting Started
 1. Install Python dependencies
 Recommended: Python 3.10+

@@ -26,7 +26,8 @@ NexusIQ is a high-performance, Agentic RAG (Retrieval-Augmented Generation) plat
 ## 🚀 Getting Started
 1. **Install Dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt (for generative AI) --> nexus_iq_analyst.py
+   pip install -r requirements.txt (for Agenic AI) --> agentic_nexus_iq_analyst.py
 
 Launch Application:
   streamlit run nexus_iq_analyst.py

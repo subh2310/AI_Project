@@ -27,11 +27,11 @@ NexusIQ is a high-performance, Agentic RAG (Retrieval-Augmented Generation) plat
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt (for generative AI) --> nexus_iq_analyst.py
-   pip install -r requirements.txt (for Agenic AI) --> agentic_nexus_iq_analyst.py
+   pip install -r agentic_ai_requirements.txt (for Agenic AI) --> agentic_nexus_iq_analyst.py
 
 Launch Application:
   streamlit run nexus_iq_analyst.py
-
+  streamlit run agentic_nexus_iq_analyst.py
 ---
 
 ### 2. File: `requirements.txt`
@@ -48,10 +48,6 @@ faiss-cpu==1.8.0
 crewai==0.28.8
 tavily-python==0.3.3
 python-dotenv==1.0.1
-
-
-Gemini said
-To finalize your project, here are the three essential document files you should create in your project folder. These are updated to match your latest FAISS + CrewAI + Groq architecture.
 
 1. File: README.md
 This is the main documentation for your GitHub or project folder.
@@ -86,14 +82,16 @@ NexusIQ is a high-performance, Agentic RAG (Retrieval-Augmented Generation) plat
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
+   pip install -r agentic_ai_requirements.txt
 Launch Application:
 
 Bash
 streamlit run nexus_iq_analyst.py
+streamlit run agentic_nexus_iq_analyst.py
 
 ---
 
-### 2. File: `requirements.txt`
+### 2. File: `requirements.txt` and `agentic_ai_requirements.txt`
 *Use this to install all necessary libraries in one command.*
 
 ```plaintext
